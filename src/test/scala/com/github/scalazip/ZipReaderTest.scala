@@ -1,13 +1,10 @@
 package com.github.scalazip
 
+import org.specs2.mutable._
+
 import java.io._
 import java.util.zip._
-import scala.io.Source
-import org.specs2.mutable._
-import org.specs2.runner.JUnitRunner
-import org.junit.runner.RunWith
 
-@RunWith(classOf[JUnitRunner])
 class ZipReaderTest extends Specification with TestData {
 
   def filterCsv(s: Stream[ZipEntry]) = s.filter(_.getName endsWith ".csv")
