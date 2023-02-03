@@ -1,6 +1,8 @@
 scala-zip
 =======================
 
+This is a fork of https://github.com/dbalduini/scala-zip
+
 ## Example
 
 ```scala
