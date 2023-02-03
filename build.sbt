@@ -8,7 +8,7 @@ scalaVersion := "2.13.6"
 
 libraryDependencies += "org.specs2" %% "specs2-core" % "4.7.1" % Test
 
-publishTo := Some("GitHub Carl Data Apache Maven Packages" at "https://maven.pkg.github.com/wenta/scala-zip")
+publishTo := Some("GitHub Apache Maven Packages" at "https://maven.pkg.github.com/wenta/scala-zip")
 publishMavenStyle := true
 credentials += Credentials(
   "GitHub Package Registry",
